@@ -4,7 +4,7 @@ Convert Packet Tracer files (.pkt/.pka) to XML and vice versa.
 
 [Packet Tracer](https://www.netacad.com/courses/packet-tracer) is a visual simulation tool designed by [Cisco Systems](https://www.cisco.com) that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
 
-I was kind of curious about the file format used by Packet Tracer. So, after some reverse engineering and analysis here is the result. This tool allow you to convert the *binary* format of the **.pkt/.pka** to a readable **XML** file. 
+I was kind of curious about the file format used by Packet Tracer. So, after some reverse engineering and analysis here is the result. This tool allow you to convert the *binary* format of the **.pkt/.pka** to a readable **XML** file. You can also revert an XML back to a Packet Tracer file.
 
 ## Description
 
