@@ -52,6 +52,7 @@ def ptfile_encode(infile, outfile):
     print("[*] File size compressed = %d bytes" % o_size)
 
     xor_out = bytearray()
+    # Encrypting each byte with decreasing file length
     for byte in out_data:
         xor_out.append((byte ^ o_size).to_bytes(4, "little")[0])
         o_size = o_size - 1
@@ -83,5 +84,3 @@ if __name__ == "__main__":
     else:
         parser.print_help()
         exit(1)
-
-
