@@ -69,8 +69,8 @@ if __name__ == "__main__":
 
     group = parser.add_mutually_exclusive_group()
 
-    group.add_argument("-d", "--decode", help="convert Packet Tracer file to XML", action="store_true")
-    group.add_argument("-e", "--encode", help="Convert XML to Packet Tracer File", action="store_true")
+    group.add_argument("-d", "--decode", help="Converts Packet Tracer file to XML", action="store_true")
+    group.add_argument("-e", "--encode", help="Converts XML to Packet Tracer File", action="store_true")
     parser.add_argument("infile", help="Packet Tracer file", action="store", type=str)
     parser.add_argument("outfile", help="Output file (XML)", action="store", type=str)
 

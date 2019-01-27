@@ -79,8 +79,8 @@ positional arguments:
 
 optional arguments:
   -h, --help    show this help message and exit
-  -d, --decode  convert Packet Tracer file to XML
-  -e, --encode  Convert XML to Packet Tracer File
+  -d, --decode  Converts Packet Tracer file to XML
+  -e, --encode  Converts XML to Packet Tracer File
 
 # Decoding
 $ python3 ptexplorer.py -d sample.pka sample.xml
